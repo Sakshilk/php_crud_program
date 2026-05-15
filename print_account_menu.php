@@ -1,5 +1,6 @@
 <?php
 require "account_functions.php";
+require "exit_function.php";
 
 function print_account_menu()
 {
@@ -27,13 +28,13 @@ function print_account_menu()
       delete_account();
       break;
     case 5:
-      acccount_queries();
+      account_queries();
       break;
     case 0:
       exit(0);
       break;
     case 8:
-      exit_function();
+      exit_to_main_menu();
       break;
     default:
       printf("Please enter the correct choice!");
