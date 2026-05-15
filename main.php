@@ -1,6 +1,9 @@
 <?php
+
+// files required 
 require "PrintAccountMenu.php";
 require "PrintContactMenu.php";
+
 
 print_menu();
 
