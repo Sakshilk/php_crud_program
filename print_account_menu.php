@@ -1,6 +1,9 @@
 <?php
 require "account_functions.php";
 require "exit_function.php";
+require "account_functions.php";
+require "contact_functions.php";
+require "exit_function.php";
 
 function print_account_menu()
 {

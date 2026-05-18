@@ -1,5 +1,5 @@
 <?php
-create_account();
+
 /**
  * PARAMAETERS: 
  * account_id => integer
@@ -30,12 +30,15 @@ function create_account() {
   fwrite($account_file,$employee_count);
   fwrite($account_file,$website);
   fwrite($account_file,$phone_number);
+  fclose($account_file);
+  printf("Successfully created Account!");
 
   
 }
 
 function retrieve_account() {
   printf("To retrieve your account, please enter your account number: ");
+  
 }
 
 function update_account(){

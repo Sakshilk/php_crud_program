@@ -4,6 +4,8 @@
 require "print_account_menu.php";
 require "print_contact_menu.php";
 require "exit_function";
+require "contact_functions.php";
+require "account_functions.php";
 
 //function call to print menu to the user 
 print_menu();
