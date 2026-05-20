@@ -56,4 +56,3 @@ function contact_queries(){
 
 
 
-?>

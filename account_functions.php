@@ -55,4 +55,3 @@ function account_queries(){
 
 
 
-?>

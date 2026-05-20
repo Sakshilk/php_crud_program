@@ -1,4 +1,5 @@
 <?php
+
 function print_contact_menu()
 {
   print "1. Create Contact" . PHP_EOL;
@@ -9,3 +10,5 @@ function print_contact_menu()
   print "0. Exit " . PHP_EOL;
   print "00. Back to Main Menu" . PHP_EOL;
 }
+
+

@@ -1,9 +1,9 @@
 <?php
 
 // files required 
-require "print_account_menu.php";
+require "PrintAccountMenu.php";
 require "print_contact_menu.php";
-require "exit_function";
+require "exit_function.php";
 require "contact_functions.php";
 require "account_functions.php";
 
@@ -42,4 +42,6 @@ function print_menu()
       print_menu();
   }
 }
-?>
+
+
+

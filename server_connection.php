@@ -1,8 +1,8 @@
 <?php
 
 
-
-$conn = new mysqli("127.0.0.1", "root", "Sakshi@123", "crud");
+// $conn is database creation object
+$conn = new mysqli("127.0.0.1", "root", "Sakshi@123", "crud"); // (host,username,password,NameOfDatabase)
 
 if($conn->connect_error) {
   die("Connection Failed: ". $conn->connect_error);
@@ -10,4 +10,3 @@ if($conn->connect_error) {
 echo "Connected Successful!";
 
 
-?>
